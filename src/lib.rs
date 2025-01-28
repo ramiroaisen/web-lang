@@ -374,8 +374,6 @@ fn match_multi<L: Language>(
             if let Some(language) = r#match {
                 return Some(language);
             }
-        } else {
-            return None;
         }
     }
     None
